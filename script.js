@@ -1,16 +1,15 @@
-// Function 1: calculateTax
+
 function calculateTax(amount) {
   let tax = amount * 0.1;
   return tax;
 }
 
-// Function 2: convertToUpperCase
 function convertToUpperCase(text) {
   let result = text.toUpperCase();
   return result;
 }
 
-// Function 3: findMaximum
+
 function findMaximum(num1, num2) {
   if (num1 > num2) {
     return num1;
@@ -19,7 +18,6 @@ function findMaximum(num1, num2) {
   }
 }
 
-// Function 4: isPalindrome
 function isPalindrome(word) {
   let lowerWord = word.toLowerCase();
   let reversed = lowerWord.split("").reverse().join("");
