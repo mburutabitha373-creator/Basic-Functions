@@ -29,7 +29,7 @@ function isPalindrome(word) {
   }
 }
 
-// Function 5: calculateDiscountedPrice
+
 function calculateDiscountedPrice(originalPrice, discountPercentage) {
   let discount = (discountPercentage / 100) * originalPrice;
   let finalPrice = originalPrice - discount;
