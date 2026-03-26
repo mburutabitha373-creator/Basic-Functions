@@ -4,10 +4,12 @@ function calculateTax(amount) {
   return tax;
 }
 
+
 function convertToUpperCase(text) {
   let result = text.toUpperCase();
   return result;
 }
+console.log(convertToUpperCase("tabitha"));
 
 
 function findMaximum(num1, num2) {
@@ -17,6 +19,7 @@ function findMaximum(num1, num2) {
     return num2;
   }
 }
+console.log(findMaximum(6,10));
 
 function isPalindrome(word) {
   let lowerWord = word.toLowerCase();
@@ -28,6 +31,7 @@ function isPalindrome(word) {
     return false;
   }
 }
+console.log(isPalindrome("madam"));
 
 
 function calculateDiscountedPrice(originalPrice, discountPercentage) {
