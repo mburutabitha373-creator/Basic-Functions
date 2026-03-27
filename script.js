@@ -1,8 +1,8 @@
-
 function calculateTax(amount) {
   let tax = amount * 0.1;
   return tax;
 }
+console.log(calculateTax(100));
 
 
 function convertToUpperCase(text) {
@@ -39,3 +39,4 @@ function calculateDiscountedPrice(originalPrice, discountPercentage) {
   let finalPrice = originalPrice - discount;
   return finalPrice;
 }
+console.log(calculateDiscountedPrice(100,20))
